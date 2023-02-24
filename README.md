@@ -40,3 +40,9 @@
   [Link to comment](https://github.com/flutter-fix-something/ActionTestRepo1/issues/1#issuecomment-1443259709)
 
 
+
+  ## Comment from CaiJingLong
+  设置完permission
+  [Link to comment](https://github.com/flutter-fix-something/ActionTestRepo1/issues/1#issuecomment-1443283396)
+
+
