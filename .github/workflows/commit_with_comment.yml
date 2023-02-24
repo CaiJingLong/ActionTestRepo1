@@ -12,4 +12,5 @@ jobs:
       - name: auto release with comment
         uses: CaiJingLong/action-use-input-token-commit@main
         with:
-          github-token: ${{ secrets.PERSON_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          # github-token: ${{ secrets.PERSON_TOKEN }}
