@@ -22,3 +22,9 @@
   [Link to comment](https://github.com/CaiJingLong/ActionTestRepo1/issues/1#issuecomment-1443200064)
 
 
+
+  ## Comment from CaiJingLong
+  有保护分支规则了
+  [Link to comment](https://github.com/CaiJingLong/ActionTestRepo1/issues/1#issuecomment-1443207907)
+
+
