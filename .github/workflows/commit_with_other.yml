@@ -1,0 +1,15 @@
+name: "Auto commit with comment"
+on:
+  issue_comment:
+    types: [created, edited]
+jobs:
+  auto_release_with_comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PERSON_TOKEN }}
+      - name: auto release with comment
+        uses: CaiJingLong/action-use-input-token-commit@main
+        with:
+          github-token: ${{ secrets.PERSON_TOKEN }}
