@@ -14,3 +14,6 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           # github-token: ${{ secrets.PERSON_TOKEN }}
+    permissions:
+      # permissions for the token, only support read org
+      statuses: read
