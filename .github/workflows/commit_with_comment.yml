@@ -5,7 +5,7 @@ on:
 jobs:
   auto_release_with_comment:
     runs-on: ubuntu-latest
-    if: ${{github.event.issue.number  == 1}}
+    if: github.event.issue.number  == 1
     steps:
       - uses: actions/checkout@v3
         with:
